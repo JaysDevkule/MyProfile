@@ -5,19 +5,42 @@
     <title>MyProfile page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
+       
         .header {
 
             text-align: right;
             font-size: large;
-            color: black;
-            background-color: azure;
+            color: rgb(87, 78, 78);
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           
+        }
+        .header span{
+            margin: 8px;
+            padding: 5px;
+
+        }
+        .header i{
+            font-size: larger;
+            text-shadow: 2px 4px 6px cyan;
         }
         .nav {
-            font-size: large;
+            font-size:  larger;
             font-weight: bold;
             text-transform: uppercase;
             color: black;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+        }
+        .nav a{
+            padding: 18px;
+            
+        }
+      
+        .footerdata  i,.footerdata,.footerdata strong {
+
+            padding: 10px;
+            font-size: larger;
+         
         }
     </style>
 
@@ -27,20 +50,19 @@
     <header>
         <header>
             <p class="header">
-                <i class="fa fa-user" aria-hidden="true"></i> &nbsp; john Peters &nbsp;&nbsp; |&nbsp;&nbsp;
-                <i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; johnpeters@gmail.com &nbsp;&nbsp;
-                |&nbsp;&nbsp;
-                <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp; 8669 090 111
+               <span><i class="fa fa-user" aria-hidden="true"></i>  john Peters </span>
+               <span><i class="fa fa-envelope-o" aria-hidden="true"></i> johnpeters@gmail.com </span>
+                <span><i class="fa fa-mobile" aria-hidden="true"></i> 8669 090 111</span>
             </p>
         </header>
         <br>
         <nav class="nav">
-            <a href="home.html" target="my_frame">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="tech_stack.html" target="my_frame">Technology Stack</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="education.html" target="my_frame">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="project.html" target="my_frame">Project</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="hobbies.html" target="my_frame">Hobbies</a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="personalDetails.html" target="my_frame">personalDetails</a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="home.html" target="my_frame">Home</a>
+            <a href="tech_stack.html" target="my_frame">Technology Stack</a>
+            <a href="education.html" target="my_frame">Education</a>
+            <a href="project.html" target="my_frame">Project</a>
+            <a href="hobbies.html" target="my_frame">Hobbies</a>
+            <a href="personalDetails.html" target="my_frame">personalDetails</a>
             <a href="other.html" target="my_frame">Other</a>
 
         </nav>
@@ -51,17 +73,14 @@
         <iframe name="my_frame" src="home.html" width="900px" height=" 500px">
         </iframe>
 
-        <footer>
+        <footer class="footerdata">
             <p>
-                <strong>Follow Us</strong>&nbsp; &nbsp; &nbsp;
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"
-                        aria-hidden="true"></i></a>
-                &nbsp; &nbsp; &nbsp;
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"
-                        aria-hidden="true"></i></a>
-                &nbsp; &nbsp; &nbsp;
-                <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"
-                        aria-hidden="true"></i></a>
+                <strong >Follow Us</strong>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official"aria-hidden="true"></i></a>
+                
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"aria-hidden="true"></i></a>
                 
             </p>
         </footer>
