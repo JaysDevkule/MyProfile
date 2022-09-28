@@ -8,3 +8,7 @@
 4.Personal Details page
 5.other page
 CSS -cascaded style sheet
+##Technology used
+1.HTML
+2.CSS
+###General information
