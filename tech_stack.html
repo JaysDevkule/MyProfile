@@ -4,23 +4,37 @@
 <head>
     <title>Technology Stack page</title>
     <style>
+        *{
+            margin-left: 10px;
+            margin-top: 10px;
+            
+        }
         table,tr,th,td{
             border: 1px solid black;
             border-collapse: collapse;
+            padding: 10px;
+            
         }
-    </style>w
+        .theader th{
+            background-color: aquamarine;
+            color: black;
+            font-size: large;
+        }
+        
+
+    </style>
 </head>
 
 <body>
     <table>
-        <thead>
-            <tr>
+        <thead class="theader">
+            <tr >
                 <th>Sr.No</th>
                 <th>Technology Stack</th>
                 <th>Rating</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tbody">
             <tr>
                 <td>1</td>
                 <td>HTML</td>
@@ -33,7 +47,7 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td>Bootstap</td>
+                <td>Bootstrap</td>
                 <td>4</td>
             </tr>
             <tr>
